@@ -1,0 +1,45 @@
+*{
+		text-decoration: none;
+}
+.SongList{
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	overflow-x: hidden;
+	overflow-y: auto;
+	border-top: .0625rem solid rgba(100, 100, 100, .1);
+}
+.SongList ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 3em;
+}
+.SongList ul li {
+	height:3.5em;
+	font-size: 1.05em;
+	text-align: left;
+	padding: 0.1em;
+	background: linear-gradient(top, rgba(77,77,77,0.6), rgba(77,77,77,0.3));
+	background: -webkit-linear-gradient(top, rgba(77,77,77,0.6), rgba(77,77,77,0.3)); 
+	background: -moz-linear-gradient(top, rgba(77,77,77,0.6), rgba(77,77,77,0.3)); 
+	background: -o-linear-gradient(top, rgba(77,77,77,0.6), rgba(77,77,77,0.3));  
+	margin-top: 0.3em;
+	border-top-left-radius: 3em;
+	border-bottom-left-radius: 3em;
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+.songName {
+	color: #ffffff;
+	background: rgba(255,255,255,0);
+	padding:1px 1.2em;
+	width: auto;
+	height:3.57em;
+	border-top-left-radius: 3em;
+	border-bottom-left-radius: 3em;
+	text-align: left;
+	display:flex;
+    align-items:center;					/*垂直居中*/
+}
+.songName span{
+	background: rgba(0,0,0,0);
+}

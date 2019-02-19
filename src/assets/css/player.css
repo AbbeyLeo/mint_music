@@ -1,0 +1,65 @@
+.playerpage{
+	margin-top:4em;
+	background:rgba(255,255,255,0);
+	width: 100%;
+	height:100%;
+	margin: 0;
+	padding: 0.01em 0.01em;
+	overflow:hidden;
+}
+.songname{
+	margin:0 auto;
+	margin-top: 5em;
+	background: rgba(148,0,0,0);
+	display:flex;
+    justify-content:center;		/*水平居中*/
+}
+.songname span{
+	width:auto;
+	color:rgba(255, 255, 255,1);
+	background: rgba(148,0,0,0);
+	margin:auto;
+}
+.songimg{
+	margin:0 auto;
+	margin-top: 1em;
+	background: rgba(148,196,125,0);
+	display:flex;
+    justify-content:center;		/*水平居中*/
+}
+.songimg img {
+	background:rgba(255,255,0,0);
+	border-radius: 10em;
+	height:18em;
+	width:18em;
+}
+.audioControler{
+	background: rgba(255, 255, 255, 0);
+	padding:0.01em;
+	margin:1em;
+}
+.songRangeLine {
+	background: rgba(255,0,255,0);
+	height:2em;	
+	width:100%;
+    justify-content:center;
+    margin:0.1em;
+    padding:1px;
+}
+.BtField {
+	margin:1em;
+	padding:0.01em;
+	background:rgba(0,255,255,0);
+	display:flex;
+    justify-content:center;
+	align-items: center;
+}
+.preSong, .nextSong{
+	margin:1em;
+	border-radius: 6em;
+	background: rgba(255,255,0,0);
+	height: 3.8em;
+}
+.playSong {
+	margin:1em;
+}

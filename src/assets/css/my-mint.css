@@ -1,0 +1,55 @@
+.mint-header{
+	background:linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.1));
+	background:-moz-linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.1));
+	background:-webkit-linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.1));
+	background:-o-linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.1));
+	height:45px;
+	font-size: 16px;
+}
+.mint-navbar{
+	background: rgba(50,50,50,0);
+	color:#ffffff;
+}
+.mint-navbar .mint-tab-item {
+		background: #980000;
+		border: none;
+		margin:0px 0px;
+		transition: all 0.75s;
+		
+	}
+.mint-navbar .mint-tab-item.is-selected {
+		color: #ffffff;
+		height: 12px;
+		background: rgba(50,50,50,0);
+		font-weight: bold;
+		font-size: 60px;
+		border-bottom-left-radius: 1.5em;
+		border-bottom-right-radius: 1.5em;
+		border: none;
+		transform: translateY(-0.22em);
+		transition: all 0.75s;
+}
+.mint-loadmore{
+	color:#ffffff;
+}
+.mt-range-progress{
+	background: #980000;
+	color:#FFFFFF;
+}
+.mt-range-thumb{
+	background: rgba(152,0,0,0.7);
+	width:20px;
+	height:20px;
+	border-radius: 2em;
+	top:0.2em;
+	left:0.2em;
+	border:2px solid  rgba(255,255,255,0.4);
+}
+.mt-range{
+	color:rgba(255,255,255,0.7);
+	padding:0;
+}
+.routerlink{
+	background:rgba(255,255,255,1);
+}
+
